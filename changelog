@@ -1,3 +1,9 @@
+libpmd (2.0-2) unstable; urgency=low
+
+  * Changed PPA
+
+ -- Ralf Kaestner <ralf.kaestner@gmail.com>  Tue, 27 Jan 2015 11:22:00 +0200
+ 
 libpmd (2.0-1) unstable; urgency=low
 
   * Initial commit
