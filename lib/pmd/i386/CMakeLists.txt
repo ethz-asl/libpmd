@@ -1,0 +1,4 @@
+remake_add_files(
+  *.so*
+  INSTALL ${CMAKE_INSTALL_PREFIX}/${LIBPMD_LIBRARY_DESTINATION}
+)

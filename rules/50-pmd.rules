@@ -1,0 +1,13 @@
+# PMD auto-configuration rules for udev.
+# See udev(7) for syntax.
+
+# PMD device group ownership and symlinks
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="1c28", ATTRS{idProduct}=="c003", SYMLINK+="camcube-%k", GROUP="plugdev"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="1c28", ATTRS{idProduct}=="c004", SYMLINK+="camboard-%k", GROUP="plugdev"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="1c28", ATTRS{idProduct}=="c005", SYMLINK+="conceptcam-%k", GROUP="plugdev"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="1c28", ATTRS{idProduct}=="c006", SYMLINK+="camboard22-%k", GROUP="plugdev"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="1c28", ATTRS{idProduct}=="c007", SYMLINK+="camboardnano-%k", GROUP="plugdev"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="1c28", ATTRS{idProduct}=="c008", SYMLINK+="camboardmod-%k", GROUP="plugdev"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="1c28", ATTRS{idProduct}=="c009", SYMLINK+="camboardplus-%k", GROUP="plugdev"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="1c28", ATTRS{idProduct}=="c00a", SYMLINK+="digicam-%k", GROUP="plugdev"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="2398", ATTRS{idProduct}=="1001", SYMLINK+="argos3d-%k", GROUP="plugdev"

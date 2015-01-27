@@ -1,0 +1,6 @@
+libpmd (2.0-1) unstable; urgency=low
+
+  * Initial commit
+  * ReMake build system port
+
+ -- Ralf Kaestner <ralf.kaestner@gmail.com>  Tue, 27 Jan 2015 11:21:00 +0200
