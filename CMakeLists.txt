@@ -33,11 +33,12 @@ remake_doc(
 )
 
 remake_pack_deb(
+  DEPENDS libusb-0.1-4
 )
 remake_pack_deb(
   COMPONENT utils
   DESCRIPTION "utilities"
-  DEPENDS libpmd
+  DEPENDS libpmd libqt4-gui
 )
 remake_pack_deb(
   COMPONENT dev
@@ -60,13 +61,13 @@ remake_distribute_deb(
   DISTRIBUTION precise
   SECTION libs
   UPLOAD ppa:kralf/asl
-  DEPENDS remake doxygen pkg-config
+  DEPENDS libusb-0.1-4 libqt4-gui remake doxygen pkg-config
   PASS CMAKE_BUILD_TYPE LIBPMD_GIT_REVISION
 )
 remake_distribute_deb(
   DISTRIBUTION trusty
   SECTION libs
   UPLOAD ppa:kralf/asl
-  DEPENDS remake doxygen pkg-config
+  DEPENDS libusb-0.1-4 libqt4-gui remake doxygen pkg-config
   PASS CMAKE_BUILD_TYPE LIBPMD_GIT_REVISION
 )

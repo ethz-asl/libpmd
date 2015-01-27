@@ -1,3 +1,9 @@
+libpmd (2.0-3) unstable; urgency=low
+
+  * Added missing depdencies on libusb-0.1-4 and libqt4-gui
+
+ -- Ralf Kaestner <ralf.kaestner@gmail.com>  Tue, 27 Jan 2015 12:49:00 +0200
+ 
 libpmd (2.0-2) unstable; urgency=low
 
   * Changed PPA
