@@ -1,4 +1,10 @@
-libpmd (2.0-3) unstable; urgency=low
+libpmd (2.0-5) unstable; urgency=low
+
+  * Fixed patch version in changelog
+
+ -- Ralf Kaestner <ralf.kaestner@gmail.com>  Tue, 27 Jan 2015 12:55:00 +0200
+ 
+libpmd (2.0-4) unstable; urgency=low
 
   * Added missing depdencies on libqt4-opengl
 
