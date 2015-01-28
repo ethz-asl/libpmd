@@ -1,3 +1,9 @@
+libpmd (2.0-6) unstable; urgency=low
+
+  * Updated README.md
+
+ -- Ralf Kaestner <ralf.kaestner@gmail.com>  Wed, 28 Jan 2015 09:15:00 +0200
+ 
 libpmd (2.0-5) unstable; urgency=low
 
   * Fixed patch version in changelog
