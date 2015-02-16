@@ -8,7 +8,7 @@ Driver library for the PMD Technologies GmbH Argos3D P100 ToF camera.
 
 **Maintainer:** Ralf Kaestner <ralf.kaestner@gmail.com>
 
-**Licsense:** MIT License (MIT)
+**License:** MIT License (MIT)
 
 **Operating system(s):** Debian-based Linux
 
